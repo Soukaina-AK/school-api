@@ -1,5 +1,5 @@
 <?php
-include '../school-management/config/database.php';
+include_once __DIR__ . '/../../config/database.php';
 
 class Student{
     private $conn;
