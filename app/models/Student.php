@@ -42,7 +42,7 @@ class Student{
 
     // delete a student
     public function delete($id){
-        $query = "DELETE FROM student WHERE student_id=:id";
+        $query = "DELETE FROM students WHERE student_id=:id";
         $stmt = $this->conn->prepare($query);
         $stmt->execute(['id' => $id]);
     }

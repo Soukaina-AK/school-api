@@ -1,5 +1,5 @@
 <?php
-include '../models/Student.php' ;
+include_once __DIR__ . '/../models/Student.php';
 
 class StudentController {
     private $studentModel;
